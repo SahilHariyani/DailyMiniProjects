@@ -11,6 +11,11 @@ from random import *
 # So, even if you use a very secure set of characters, your password should be at least 10 characters long. To break a 10 character password that uses letters, numbers, and symbols, such as "%ZBGbv]8g?", it would take (1.7*10^-6 * 80^10) seconds / 2 or 289217 years. This would take about 3 years on a supercomputer or botnet.
 # The moral of the story is that passwords should be at least 10 characters long and include a mix of numbers, lowercase letters, uppercase letters and symbols.
 
+# I think it's important to mention that a longer password made up of a sentence is just as hard to crack but considerably easier for a human to remember.
+# A 24 character password would take decades or even centuries to hash but be as easy to remember as “the long horse runs fast”.
+
+
+#PS: don't use this to generator password, for personal use xD
 
 def message():
     print("Welcome to your random password generator!")
