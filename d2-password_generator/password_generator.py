@@ -3,7 +3,7 @@ from random import *
 
 def message():
     print("Welcome to your random password generator!")
-    num =int(input("Please select the length of each of your characters (greater than 6): "))
+    num =int(input("Please select the length of your password (greater than 5): "))
     print(passGen(num))
 
 def randomSet(set):
@@ -17,7 +17,7 @@ def randomSet(set):
 def passGen(num):
     new_password=""
     if (num)<6:
-        print("Please enter minimum 6 letters.")
+        print("Please enter atleast 6.")
     else:
       for i in range(1,num+1):
           new_password += choice(randomSet(randint(0,3)));
