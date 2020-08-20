@@ -1,7 +1,9 @@
 from random import *
 
 # To demonstrate the importance of password complexity, 
-# let's start with a pincode password such as "123456789". In this case, the character set (0123456789) consists of 10 characters. For a 9 digit password using this character set, there are 10^9 possible password combinations. Therefore, it will take (1.7*10^-6 * 10^9) seconds / 2, or 14.17 minutes, to break this password on average. On a supercomputer or botnet, we divide this by 100000, so it would take 0.0085 seconds to break a password.
+# let's start with a pincode password such as "123456789". In this case, the character set (0123456789) consists of 10 characters. 
+#For a 9 digit password using this character set, there are 10^9 possible password combinations. 
+#Therefore, it will take (1.7*10^-6 * 10^9) seconds / 2, or 14.17 minutes, to break this password on average. On a supercomputer or botnet, we divide this by 100000, so it would take 0.0085 seconds to break a password.
 
 
 #If you include symbols, then depending on the symbols used, 
